@@ -186,7 +186,7 @@
     </div>
     <div style="background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:6px 12px;font-size:12px;color:#333;">
       <span style="color:#999;font-size:10px;text-transform:uppercase;letter-spacing:.05em;display:block;margin-bottom:2px;">Hábitos</span>
-      Sin patologías ni medicación · SIBO diagnosticado · hábitos de sueño/tóxicos pendientes de detallar
+      Sin patologías ni medicación · SIBO diagnosticado · cocina él mismo (15–45 min, le gusta cocinar: horno, air fryer, fogones)
     </div>
     <div style="background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:6px 12px;font-size:12px;color:#333;">
       <span style="color:#999;font-size:10px;text-transform:uppercase;letter-spacing:.05em;display:block;margin-bottom:2px;">Aversiones / exclusiones</span>
@@ -222,7 +222,7 @@
   <div class="pn-perfil-grid" style="margin-bottom:10px">
     <div class="pn-metric"><div class="pn-metric-lbl">Peso actual</div><div class="pn-metric-val">86,1 kg</div><div class="pn-metric-sub">IMC 25,4 · <span style="color:#993C1D;font-weight:500">Sobrepeso I</span></div></div>
     <div class="pn-metric"><div class="pn-metric-lbl">Talla / envergadura</div><div class="pn-metric-val">184 / 185 cm</div><div class="pn-metric-sub">Macrocórmico · E. relativa 1,01</div></div>
-    <div class="pn-metric"><div class="pn-metric-lbl">% Masa grasa (Yuhasz)</div><div class="pn-metric-val" style="color:#1D9E75">9,31 %</div><div class="pn-metric-sub">8,02 kg · Σ6 pliegues: <span style="color:#993C1D;font-weight:500">58,50 mm</span></div></div>
+    <div class="pn-metric"><div class="pn-metric-lbl">% Masa grasa (Yuhasz)</div><div class="pn-metric-val" style="color:#BA7517">9,31 %</div><div class="pn-metric-sub">8,02 kg · Σ6 pliegues: <span style="color:#993C1D;font-weight:500">58,50 mm</span></div></div>
     <div class="pn-metric"><div class="pn-metric-lbl">% Masa muscular</div><div class="pn-metric-val" style="color:#1D9E75">43,79 %</div><div class="pn-metric-sub">37,70 kg · Z Peso Muscular 1,43</div></div>
   </div>
   <div class="pn-perfil-grid" style="margin-bottom:10px">
@@ -383,7 +383,6 @@
   <div id="dayView"></div>
   <div class="pn-legend">
     <span style="font-size:12px;color:#aaa;margin-right:4px;">Comidas:</span>
-    <span class="pn-legend-item"><span class="pn-badge badge-d">D</span> Desayuno</span>
     <span class="pn-legend-item"><span class="pn-badge badge-a">A</span> Almuerzo</span>
     <span class="pn-legend-item"><span class="pn-badge badge-c">C</span> Comida</span>
     <span class="pn-legend-item"><span class="pn-badge badge-me">Me</span> Merienda</span>
@@ -402,10 +401,10 @@
   <div style="display:flex;align-items:center;gap:14px;background:#fafafa;border:1px solid #e5e5e5;border-radius:12px;padding:1rem 1.25rem;flex-wrap:wrap;">
     <div style="font-size:28px;">📅</div>
     <div style="flex:1;min-width:200px;">
-      <div style="font-size:16px;font-weight:500;color:#111;">5 de octubre de 2026, 10:00 (provisional — confirmar entre 5 y 12 de octubre)</div>
+      <div style="font-size:16px;font-weight:500;color:#111;">12 de octubre de 2026, 18:00 (por confirmar)</div>
       <div style="font-size:12px;color:#999;margin-top:3px;">Valoración antropométrica + bioimpedancia · Revisión de adherencia y sensaciones · Ajuste de plan si procede</div>
     </div>
-    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Revisi%C3%B3n+nutricional+%E2%80%94+Carlos+Panad%C3%A9s&dates=20261005T080000Z%2F20261005T090000Z&details=Valoraci%C3%B3n+antropom%C3%A9trica+%2B+bioimpedancia.+Revisi%C3%B3n+de+adherencia+y+sensaciones.+Ajuste+de+plan+si+procede.&location=NutriLogos" target="_blank" style="display:inline-flex;align-items:center;gap:7px;background:#0d3d4f;color:#fff;text-decoration:none;border-radius:10px;padding:9px 18px;font-size:13px;font-weight:500;letter-spacing:0.02em;white-space:nowrap;">
+    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Revisi%C3%B3n+nutricional+%E2%80%94+Carlos+Panad%C3%A9s&dates=20261012T160000Z%2F20261012T170000Z&details=Valoraci%C3%B3n+antropom%C3%A9trica+%2B+bioimpedancia.+Revisi%C3%B3n+de+adherencia+y+sensaciones.+Ajuste+de+plan+si+procede.&location=NutriLogos" target="_blank" style="display:inline-flex;align-items:center;gap:7px;background:#0d3d4f;color:#fff;text-decoration:none;border-radius:10px;padding:9px 18px;font-size:13px;font-weight:500;letter-spacing:0.02em;white-space:nowrap;">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
       Añadir al calendario
     </a>
@@ -419,159 +418,151 @@ const days = [
     full: "Lunes",
     sport: "⚽ Entreno 19h",
     sportClass: "run",
-    sportBanner: "Entreno en Soneja a las 19h. Comida y merienda con carbohidrato de fácil digestión antes del entreno.",
+    sportBanner: "Entreno en Soneja a las 19h. La comida de las 14:00 y la merienda son la carga de carbohidrato antes del entreno.",
     suppl: null,
     libre: false,
     meals: [
-      { type:"D", time:"7:00–8:00", name:"Desayuno base", tags:[], desc:"Huevos revueltos\nPan de payés tostado\nAOVE", note:"Pendiente de ajustar a tus gustos reales de desayuno.", libre:false },
-      { type:"A", time:"10:30–11:00", name:"Almuerzo de trabajo", tags:[], desc:"Yogur natural sin lactosa\nPlátano maduro", note:"Snack práctico para llevar a la obra; sin lactosa por el SIBO.", libre:false },
-      { type:"C", time:"13:30–14:30", name:"Comida base", tags:[], desc:"Arroz blanco\nPechuga de pollo a la plancha\nCalabacín y zanahoria al vapor\nAOVE", note:"Cereal bajo en fibra fermentable + proteína animal; evitamos ajo/cebolla en cantidad por el SIBO.", libre:false },
-      { type:"Me", time:"17:00–17:30", name:"Pre-entreno", tags:[], desc:"Tostada de pan blanco\nMiel\nPlátano maduro", note:"Carbohidrato rápido y bajo en fibra antes del entreno de las 19h.", libre:false },
-      { type:"Ce", time:"21:00–21:30", name:"Recuperación post-entreno", tags:[], desc:"Patata cocida\nSalmón al horno\nEspinacas salteadas", note:"Carbohidrato de fácil digestión + proteína animal para la recuperación.", libre:false }
-    ],
-    batchCooking: null
+      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nTomate natural\nPavo fiambre (2-3 lonchas, ≈50g)\nAOVE (1 cdta, moderado)\nFruta (1 pieza)", short:"Tostada + pavo + AOVE + fruta", note:"El AOVE es saludable pero muy calórico: 1 cucharadita es suficiente, no hace falta más.", libre:false },
+      { type:"C", time:"14:00–14:30", name:"Comida", tags:[], desc:"Arroz integral (1 vasito precocinado ≈125g, o 90-100g en crudo)\nPechuga de pollo (150g, un filete tipo palma de la mano)\nTomate, pepino y pimiento\nAOVE (1 cda, moderado)", short:"Arroz + pollo + verduras", note:"Mejor pechuga que contramuslo como base, aunque algún día puntual con contramuslo no pasa nada.", libre:false },
+      { type:"Me", time:"17:30–18:00", name:"Pre-entreno", tags:[], desc:"Tostada de pan blanco (1-2 rebanadas)\nMiel (1 cda)\nPlátano", short:"Tostada + miel + plátano", note:"Carga rápida de carbohidrato antes de entrenar.", libre:false },
+      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Salmón al horno (150g)\nPatata (250g, de bote en conserva o al momento en air fryer)\nLechuga, tomate y pepino\nKéfir", short:"Salmón + patata + ensalada + kéfir", note:"Priorizamos pescado azul por el colesterol.", libre:false }
+    ]
   },
   {
     short: "Mar",
     full: "Martes",
     sport: "🛌 Descanso",
     sportClass: "rest",
-    sportBanner: "Día sin entreno. Menos carbohidrato, algo más de verdura cocida.",
+    sportBanner: "Día sin entreno. Sin merienda, como sueles hacer.",
     suppl: null,
     libre: false,
     meals: [
-      { type:"D", time:"7:00–8:00", name:"Desayuno base", tags:[], desc:"Huevos revueltos\nPan de payés tostado\nAOVE", note:"Pendiente de ajustar a tus gustos reales de desayuno.", libre:false },
-      { type:"A", time:"10:30–11:00", name:"Almuerzo de trabajo", tags:[], desc:"Fiambre de pavo\nMandarina", note:"Snack práctico bajo en fibra fermentable.", libre:false },
-      { type:"C", time:"13:30–14:30", name:"Comida base", tags:[], desc:"Arroz blanco\nMerluza a la plancha\nVerdura al vapor\nAOVE", note:"Día sin entreno: ración de cereal algo más moderada.", libre:false },
-      { type:"Me", time:"17:00–17:30", name:"Merienda estándar", tags:[], desc:"Queso fresco bajo en lactosa\nFruta", note:"Merienda de mantenimiento, sin carga extra al no haber entreno.", libre:false },
-      { type:"Ce", time:"21:00–21:30", name:"Cena ligera", tags:[], desc:"Pechuga de pollo\nVerdura al vapor\nAOVE", note:"Cena algo más ligera en día de descanso.", libre:false }
-    ],
-    batchCooking: null
+      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nAguacate (1/2 unidad)\nTomate en rodajas", short:"Tostada + aguacate + tomate", note:"Sin AOVE hoy: el aguacate ya aporta grasa saludable de por sí.", libre:false },
+      { type:"C", time:"14:00–14:30", name:"Ensalada de garbanzos", tags:[], desc:"Garbanzos cocidos (≈150g escurridos)\nLechuga, tomate y zanahoria rallada\nAtún (1 lata)\nNueces (puñado, ≈20g)", short:"Ensalada de garbanzos + atún + nueces", note:"Legumbre en día sin entreno, en modo ensalada — vamos probando tu tolerancia digestiva al SIBO. Las nueces son calóricas, un puñado es suficiente.", libre:false },
+      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Pechuga de pollo (150g)\nPatata (250g, de bote en conserva o al momento en air fryer)\nBrócoli y zanahoria congelados\nFruta", short:"Pollo + patata + brócoli/zanahoria + fruta", note:"Cena estándar de descanso.", libre:false }
+    ]
   },
   {
     short: "Mié",
     full: "Miércoles",
     sport: "⚽ Entreno 19h",
     sportClass: "run",
-    sportBanner: "Entreno en Soneja a las 19h. Comida y merienda con carbohidrato de fácil digestión antes del entreno.",
+    sportBanner: "Entreno en Soneja a las 19h. La comida de las 14:00 y la merienda son la carga de carbohidrato antes del entreno.",
     suppl: null,
     libre: false,
     meals: [
-      { type:"D", time:"7:00–8:00", name:"Desayuno base", tags:[], desc:"Huevos revueltos\nPan de payés tostado\nAOVE", note:"Pendiente de ajustar a tus gustos reales de desayuno.", libre:false },
-      { type:"A", time:"10:30–11:00", name:"Almuerzo de trabajo", tags:[], desc:"Yogur natural sin lactosa\nPlátano maduro", note:"Snack práctico para llevar a la obra; sin lactosa por el SIBO.", libre:false },
-      { type:"C", time:"13:30–14:30", name:"Comida base", tags:[], desc:"Arroz blanco\nPavo a la plancha\nCalabacín y zanahoria al vapor\nAOVE", note:"Cereal bajo en fibra fermentable + proteína animal.", libre:false },
-      { type:"Me", time:"17:00–17:30", name:"Pre-entreno", tags:[], desc:"Tostada de pan blanco\nMiel\nPlátano maduro", note:"Carbohidrato rápido y bajo en fibra antes del entreno de las 19h.", libre:false },
-      { type:"Ce", time:"21:00–21:30", name:"Recuperación post-entreno", tags:[], desc:"Patata cocida\nMerluza al horno\nEspinacas salteadas", note:"Carbohidrato de fácil digestión + proteína animal para la recuperación.", libre:false }
-    ],
-    batchCooking: null
+      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nTomate natural\nHuevo revuelto (2 huevos)\nAOVE (1 cdta, moderado)", short:"Tostada + huevo + tomate", note:"Único día de huevo en la semana — el resto de días priorizamos otras proteínas por el colesterol.", libre:false },
+      { type:"C", time:"14:00–14:30", name:"Comida", tags:[], desc:"Pasta integral (80-90g en crudo)\nTomate natural triturado (o frito, 2 cdas si no te gusta el natural)\nCalabacín, champiñón y pimiento salteados (pueden ser congelados)\nAtún (1 lata)", short:"Pasta + tomate + verduras + atún", note:"Cereal fácil de digerir antes del entreno de las 19h.", libre:false },
+      { type:"Me", time:"17:30–18:00", name:"Pre-entreno", tags:[], desc:"Tostada de pan blanco (1-2 rebanadas)\nMiel (1 cda)\nPlátano", short:"Tostada + miel + plátano", note:"Carga rápida de carbohidrato antes de entrenar.", libre:false },
+      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Caballa (150g)\nPatata (250g, de bote en conserva o al momento en air fryer)\nJudía verde y zanahoria congeladas\nKéfir", short:"Caballa + patata + verduras + kéfir", note:"Pescado azul pequeño, buena opción para el colesterol.", libre:false }
+    ]
   },
   {
     short: "Jue",
     full: "Jueves",
     sport: "⚽ Entreno 19h",
     sportClass: "run",
-    sportBanner: "Entreno en Soneja a las 19h. Comida y merienda con carbohidrato de fácil digestión antes del entreno.",
+    sportBanner: "Entreno en Soneja a las 19h. La comida de las 14:00 y la merienda son la carga de carbohidrato antes del entreno.",
     suppl: null,
     libre: false,
     meals: [
-      { type:"D", time:"7:00–8:00", name:"Desayuno base", tags:[], desc:"Huevos revueltos\nPan de payés tostado\nAOVE", note:"Pendiente de ajustar a tus gustos reales de desayuno.", libre:false },
-      { type:"A", time:"10:30–11:00", name:"Almuerzo de trabajo", tags:[], desc:"Fiambre de pavo\nMandarina", note:"Snack práctico bajo en fibra fermentable.", libre:false },
-      { type:"C", time:"13:30–14:30", name:"Comida base", tags:[], desc:"Arroz blanco\nPechuga de pollo a la plancha\nVerdura al vapor\nAOVE", note:"Cereal bajo en fibra fermentable + proteína animal.", libre:false },
-      { type:"Me", time:"17:00–17:30", name:"Pre-entreno", tags:[], desc:"Tostada de pan blanco\nMiel\nPlátano maduro", note:"Carbohidrato rápido y bajo en fibra antes del entreno de las 19h.", libre:false },
-      { type:"Ce", time:"21:00–21:30", name:"Recuperación post-entreno", tags:[], desc:"Patata cocida\nSalmón al horno\nEspinacas salteadas", note:"Carbohidrato de fácil digestión + proteína animal para la recuperación.", libre:false }
-    ],
-    batchCooking: null
+      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nAguacate (1/2 unidad)\nPavo fiambre (2-3 lonchas, ≈50g)", short:"Tostada + aguacate + pavo", note:"Sin huevo ni jamón hoy — ya los tienes cubiertos esta semana.", libre:false },
+      { type:"C", time:"14:00–14:30", name:"Comida", tags:[], desc:"Quinoa precocinada (1 vasito ≈125g)\nPavo a la plancha (150g)\nTomate, maíz y pimiento", short:"Quinoa + pavo + verduras", note:"Variamos el cereal respecto al resto de la semana. Mismo peso de referencia que el pollo.", libre:false },
+      { type:"Me", time:"17:30–18:00", name:"Pre-entreno", tags:[], desc:"Tostada de pan blanco (1-2 rebanadas)\nMiel (1 cda)\nPlátano", short:"Tostada + miel + plátano", note:"Carga rápida de carbohidrato antes de entrenar.", libre:false },
+      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Pechuga de pollo (150g)\nPatata (250g, de bote en conserva o al momento en air fryer)\nLechuga, tomate y maíz\nFruta", short:"Pollo + patata + ensalada + fruta", note:"Cena estándar de recuperación.", libre:false }
+    ]
   },
   {
     short: "Vie",
     full: "Viernes",
     sport: "🛌 Descanso",
     sportClass: "rest",
-    sportBanner: "Día sin entreno, previo al fin de semana de entreno+partido. Buen momento para dejar algo preparado si te encaja.",
+    sportBanner: "Día sin entreno, previo al fin de semana de entreno+partido. Sin merienda, como sueles hacer.",
     suppl: null,
     libre: false,
     meals: [
-      { type:"D", time:"7:00–8:00", name:"Desayuno base", tags:[], desc:"Huevos revueltos\nPan de payés tostado\nAOVE", note:"Pendiente de ajustar a tus gustos reales de desayuno.", libre:false },
-      { type:"A", time:"10:30–11:00", name:"Almuerzo de trabajo", tags:[], desc:"Yogur natural sin lactosa\nFruta", note:"Snack práctico bajo en lactosa.", libre:false },
-      { type:"C", time:"13:30–14:30", name:"Comida base", tags:["batch"], desc:"Arroz blanco\nMerluza a la plancha\nVerdura al vapor\nAOVE", note:"Día sin entreno: ración de cereal moderada. Puede salir del batch cooking.", libre:false },
-      { type:"Me", time:"17:00–17:30", name:"Merienda", tags:[], desc:"Queso fresco bajo en lactosa\nFruta", note:"Merienda estándar.", libre:false },
-      { type:"Ce", time:"21:00–21:30", name:"Cena ligera", tags:[], desc:"Pechuga de pollo\nVerdura al vapor\nAOVE", note:"Cena ligera antes del fin de semana de entreno y partido.", libre:false }
-    ],
-    batchCooking: {
-      title: "🍲 Preparación del fin de semana (opcional)",
-      items: [
-        "Arroz blanco cocido para 2–3 días",
-        "Pollo y/o pavo a la plancha en tandas",
-        "Pescado (merluza o salmón) al horno para 1–2 días",
-        "Verdura al vapor (calabacín, zanahoria, espinaca) para varios días"
-      ],
-      note: "Preparar el viernes facilita el sábado (entreno mañana) y el domingo (partido tarde). Herramienta de organización, no obligatoria."
-    }
+      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nTomate natural\nJamón serrano (3-4 lonchas)", short:"Tostada + jamón + tomate", note:"Único día de jamón serrano en la semana — el resto de días priorizamos otras proteínas por el colesterol.", libre:false },
+      { type:"C", time:"14:00–14:30", name:"Ensalada de alubias", tags:[], desc:"Alubias cocidas (≈150g escurridas)\nZanahoria, pepino y tomate\nPollo a la plancha (150g) o huevo duro\nNueces (puñado, ≈20g)", short:"Ensalada de alubias + pollo/huevo + nueces", note:"Segunda ración de legumbre de la semana, en modo ensalada y en día sin entreno — seguimos valorando tu tolerancia al SIBO.", libre:false },
+      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Merluza (150g)\nPatata (250g, de bote en conserva o al momento en air fryer)\nBrócoli y coliflor congelados\nKéfir", short:"Merluza + patata + verduras + kéfir", note:"Cena ligera antes del fin de semana de entreno y partido.", libre:false }
+    ]
   },
   {
     short: "Sáb",
     full: "Sábado",
     sport: "⚽ Entreno 9:30h",
     sportClass: "fuerza",
-    sportBanner: "Entreno por la mañana en Soneja (9:30h). Desayuno con carbohidrato rápido antes; recuperación en el almuerzo.",
+    sportBanner: "Entreno por la mañana en Soneja (9:30h). El almuerzo hace de carga pre-entreno; sin merienda por la tarde, como sueles hacer.",
     suppl: null,
     libre: false,
     meals: [
-      { type:"D", time:"7:30–8:00", name:"Desayuno pre-entreno", tags:[], desc:"Tostada de pan blanco\nMiel\nPlátano maduro", note:"Carbohidrato rápido y bajo en fibra antes del entreno de las 9:30h.", libre:false },
-      { type:"A", time:"10:30–11:00", name:"Post-entreno", tags:[], desc:"Yogur natural sin lactosa\nPlátano maduro", note:"Recuperación rápida tras el entreno matinal.", libre:false },
-      { type:"C", time:"13:30–14:30", name:"Comida base", tags:[], desc:"Arroz blanco\nPechuga de pollo a la plancha\nVerdura al vapor\nAOVE", note:"Recuperación completa antes del partido del domingo.", libre:false },
-      { type:"Me", time:"17:00–17:30", name:"Merienda", tags:[], desc:"Queso fresco bajo en lactosa\nFruta", note:"Merienda estándar.", libre:false },
-      { type:"Ce", time:"21:00–21:30", name:"Cena", tags:[], desc:"Patata cocida\nPescado blanco al horno\nVerdura al vapor", note:"Cena de cara al partido de mañana.", libre:false }
-    ],
-    batchCooking: null
+      { type:"A", time:"7:30–8:00", name:"Pre-entreno", tags:[], desc:"Tostada de pan blanco (1-2 rebanadas)\nMiel (1 cda)\nPlátano", short:"Tostada + miel + plátano", note:"Carbohidrato rápido antes del entreno de las 9:30h.", libre:false },
+      { type:"C", time:"14:00–14:30", name:"Comida", tags:[], desc:"Arroz blanco (1 vasito precocinado ≈125g — blanco, no integral)\nPechuga de pollo (150g)\nLechuga, tomate y zanahoria", short:"Arroz blanco + pollo + ensalada", note:"Arroz blanco en vez de integral: mañana toca partido y reducimos algo la fibra desde hoy.", libre:false },
+      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Pescado blanco (lubina o dorada, 150g)\nPatata (250g, de bote en conserva o al momento en air fryer)\nJudía verde y zanahoria congeladas\nFruta", short:"Pescado blanco + patata + verduras + fruta", note:"Cena de cara al partido de mañana.", libre:false }
+    ]
   },
   {
     short: "Dom ★",
     full: "Domingo",
     sport: "🏟️ Partido (tarde)",
     sportClass: "crossfit",
-    sportBanner: "Partido por la tarde — ajustamos horarios de comida y snack pre-partido en cuanto confirmes la hora exacta.",
+    sportBanner: "Partido por la tarde — ajustamos horarios de comida y snack pre-partido en cuanto se confirme la hora exacta.",
     suppl: null,
     libre: true,
     meals: [
-      { type:"D", time:"8:30–9:00", name:"Desayuno base", tags:[], desc:"Huevos revueltos\nPan de payés tostado\nAOVE", note:"Desayuno estándar, el partido es por la tarde.", libre:false },
-      { type:"A", time:"11:30–12:00", name:"Snack de mañana", tags:[], desc:"Yogur natural sin lactosa\nPlátano maduro", note:"Snack estándar, alejado aún del partido.", libre:false },
-      { type:"C", time:"13:30–14:00", name:"Comida pre-partido", tags:[], desc:"Arroz blanco\nPechuga de pollo a la plancha\nZanahoria cocida", note:"Comida de fácil digestión 2–3h antes del partido — ajustar horario según la hora exacta.", libre:false },
-      { type:"Me", time:"~1h antes del partido", name:"Snack pre-partido", tags:[], desc:"Dátiles\nAgua con sal", note:"Carga rápida de energía cerca del partido.", libre:false },
-      { type:"Ce", time:"21:00–22:00", name:"Cena libre", tags:[], desc:"", note:"Cena libre semanal, después del partido — herramienta de adherencia, sin restricción.", libre:true }
-    ],
-    batchCooking: null
+      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nTomate natural\nPavo fiambre (2-3 lonchas, ≈50g)\nFruta (1 pieza)", short:"Tostada + pavo + tomate + fruta", note:"Almuerzo estándar, el partido es por la tarde.", libre:false },
+      { type:"C", time:"3-4h antes del partido", name:"Comida pre-partido", tags:[], desc:"Pasta blanca (110-120g en crudo)\nPechuga de pollo (150g)\nTomate frito", short:"Pasta blanca + pollo + tomate frito", note:"Pasta blanca y sin verdura cruda para reducir la fibra y facilitar la absorción de carbohidrato. Cómela 3-4h antes del inicio del partido.", libre:false },
+      { type:"Me", time:"~1h antes del partido", name:"Snack pre-partido", tags:[], desc:"Isotónica (≈500ml)\nDátiles (2-3 uds)\nTostada de pan blanco con mermelada o miel (o tortitas de arroz con mermelada)", short:"Isotónica + dátiles + pan/mermelada", note:"Carga rápida de energía e hidratación con electrolitos cerca del partido.", libre:false },
+      { type:"Ce", time:"21:00–22:00", name:"Cena libre", tags:[], desc:"", short:"Cena libre", note:"Cena libre semanal, después del partido — herramienta de adherencia, sin restricción.", libre:true }
+    ]
   }
 ];
 
 const shopCategories = [
   { label: "🍗 Proteínas", cls: "cat-prot", items: [
-      { name: "Huevos", qty: "1 docena" },
-      { name: "Pechuga de pollo", qty: "≈1 kg" },
-      { name: "Pavo (filete y fiambre)", qty: "≈600g" },
-      { name: "Merluza", qty: "≈400g" },
-      { name: "Salmón", qty: "≈400g" },
-      { name: "Pescado blanco (lubina/dorada)", qty: "≈300g" },
-      { name: "Yogur natural sin lactosa", qty: "7 uds" },
-      { name: "Queso fresco bajo en lactosa", qty: "1 tarrina" }
+      { name: "Huevos", qty: "≈6 uds — 1x/semana" },
+      { name: "Atún en lata (al natural)", qty: "3 latas" },
+      { name: "Jamón serrano (lonchas)", qty: "1 paquete pequeño — 1x/semana" },
+      { name: "Pavo fiambre (para almuerzo)", qty: "1 paquete" },
+      { name: "Pechuga de pollo", qty: "≈900g (150g x 6)" },
+      { name: "Pavo (filete)", qty: "150g" },
+      { name: "Merluza", qty: "150g" },
+      { name: "Caballa", qty: "150g" },
+      { name: "Salmón", qty: "150g" },
+      { name: "Pescado blanco (lubina/dorada)", qty: "150g" },
+      { name: "Garbanzos (bote 400g)", qty: "1 bote (≈150g escurridos)" },
+      { name: "Alubias (bote 400g)", qty: "1 bote (≈150g escurridas)" },
+      { name: "Kéfir", qty: "1 botella" }
   ]},
   { label: "🌾 Carbohidratos", cls: "cat-carb", items: [
-      { name: "Arroz blanco", qty: "1,5 kg" },
-      { name: "Pan de payés / pan blanco", qty: "2 barras" },
-      { name: "Patata", qty: "1 kg" },
-      { name: "Plátanos", qty: "10 uds" },
-      { name: "Mandarinas", qty: "según semana" },
-      { name: "Dátiles", qty: "1 paquete" }
+      { name: "Vasitos de arroz integral precocinado", qty: "2 uds" },
+      { name: "Vasito de arroz blanco precocinado", qty: "1 ud — sábado (víspera de partido)" },
+      { name: "Vasito de quinoa precocinada", qty: "1 ud" },
+      { name: "Pasta integral", qty: "80-90g crudo" },
+      { name: "Pasta blanca", qty: "110-120g crudo — domingo (día de partido)" },
+      { name: "Pan integral o de centeno (para tostadas)", qty: "1 barra/paquete" },
+      { name: "Pan blanco (para pre-entreno/pre-partido)", qty: "1 barra" },
+      { name: "Tortitas de arroz", qty: "1 paquete (alternativa domingo)" },
+      { name: "Patata (de bote en conserva o para air fryer)", qty: "1,5 kg (250g x 6)" },
+      { name: "Plátanos", qty: "4 uds" },
+      { name: "Dátiles", qty: "1 paquete" },
+      { name: "Mermelada", qty: "1 tarro" }
   ]},
   { label: "🥑 Grasas", cls: "cat-fat", items: [
-      { name: "AOVE", qty: "1 botella" },
-      { name: "Aceite infusionado en ajo (sin trozos)", qty: "1 botella" }
+      { name: "AOVE (uso moderado, 1 cdta/cda por comida)", qty: "1 botella" },
+      { name: "Aguacate", qty: "2 uds" },
+      { name: "Nueces", qty: "1 puñado x2 (≈40g)" }
   ]},
   { label: "🧄 Extras", cls: "cat-extra", items: [
       { name: "Miel", qty: "1 tarro" },
-      { name: "Sal", qty: "en casa" },
-      { name: "Calabacín y zanahoria", qty: "según semana" },
-      { name: "Espinacas", qty: "según semana" }
+      { name: "Isotónica", qty: "500ml — domingo pre-partido" },
+      { name: "Tomate", qty: "según semana" },
+      { name: "Tomate frito (bote)", qty: "1 bote pequeño — domingo pre-partido" },
+      { name: "Pepino, pimiento, zanahoria", qty: "según semana" },
+      { name: "Maíz", qty: "1 lata/bote" },
+      { name: "Lechuga", qty: "según semana" },
+      { name: "Champiñón, calabacín (frescos o congelados)", qty: "según semana" },
+      { name: "Brócoli, coliflor, judía verde congelados", qty: "1 bolsa variada" },
+      { name: "Fruta de temporada", qty: "según semana" }
   ]}
 ];
 
@@ -642,8 +633,7 @@ function buildTabs() {
 
 function buildSummary() {
   const rows = [
-    { type:"D", label:"D", bg:"#f9fcf5" },
-    { type:"A", label:"A", bg:"#f2fbf8" },
+    { type:"A", label:"A", bg:"#f9fcf5" },
     { type:"C", label:"C", bg:"#f3fdf8" },
     { type:"Me", label:"Me", bg:"#f5f3ff" },
     { type:"Ce", label:"Ce", bg:"#fdf8ff" }
@@ -662,7 +652,7 @@ function buildSummary() {
         cellHtml = `Libre`;
         cellBg = "#fbeaf0";
       } else {
-        cellHtml = meal.name;
+        cellHtml = meal.short || meal.name;
       }
       const styleLibre = meal && meal.libre ? "color:#72243E;font-style:italic;" : "color:#333;";
       html += `<td style="background:${cellBg};padding:8px 10px;border-right:1px solid #eee;border-bottom:1px solid #eee;text-align:center;${styleLibre}line-height:1.4;">${cellHtml}</td>`;
