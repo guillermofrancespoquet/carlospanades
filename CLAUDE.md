@@ -45,7 +45,20 @@ Orden: h1 + subtítulo → Objetivo → Impresiones del profesional → Menú se
 - Cálculo NutriLogos (20/10/2026): BMR 1846 kcal (rango 1606-2086) · TDEE 2861 · **objetivo 2432 kcal/día** (≈ −430 kcal; pérdida ≈ 0,47 %/semana) · P 133 g (22 %) · G 68 g (25 %) · HC 323 g (53 %) · masa libre de grasa 75 kg.
 - Los 133 g de proteína salen de la nueva valoración (el cliente ha bajado ~3 kg respecto a la inicial).
 - **Proteína: techo de 1,6 g/kg de peso.** Con su historial es suficiente para cubrir requerimientos con margen; no subir más con la evidencia actual (decisión de Guille).
-- Estimación de macros del menú actual (tablas estándar, orientativa): ~1485 kcal/día de media (rango realista 1500-1650), P ~100 g, HC ~197 g, G ~32 g. Queda por debajo del objetivo; **no se ajusta ahora**, se decide en la próxima revisión mensual con datos reales.
+- Menú de la revisión del 17/10/2026 (estimación orientativa, tablas estándar): ~1630 kcal/día escritas (~1700 con el skyr opcional), P ~103-115 g (≈1,2-1,4 g/kg; no se sube más por ahora). Con extras no escritos (alcohol, comidas fuera, cena libre real; ~150-300 kcal/día) y un gasto central estimado ~2300-2400, el déficit queda en ~350-400 kcal. El gasto real se calibra con las pesadas en ayunas que pasa el cliente (>0,5 kg/semana durante 2 semanas: subir ~150-200 kcal; <0,1 kg/semana: bajarlas).
+- Alcohol y extras: los cuenta Guille, **no aparecen en el plan**.
+
+## Objetivos de la revisión (17/10/2026)
+- Bioimpedancia: 13,1 % → **12,5 %** (≈ −0,6 kg de grasa a masa magra constante, 72,2 kg).
+- Pliegues: **Σ6 <45 mm** (47,8 en 17/10), **Σ8 <56 mm** (58,8; derivado proporcionalmente, diana de trabajo y no umbral). Pliegue de muslo como seguimiento (14,3 mm), sin objetivo específico.
+- Durnin-Womersley como referencia secundaria: ~9-9,5 % (Σ4 bíceps+tríceps+subescapular+cresta ilíaca ≈ 22 mm; 23,5 en 17/10). No es convertible con la bioimpedancia.
+- Bioimpedancia siguiente: por la mañana (la del 17/10 fue por la mañana; la inicial, por la tarde).
+
+## Cantidades de referencia del menú
+- Arroz integral (lunes): 125 g precocinado (~210 kcal) o 80 g en crudo. Arroz blanco (sábado): 150 g en crudo. Quinoa (jueves): 125 g. Pasta integral (miércoles): 100 g en crudo. Sin "vasito" en el texto, solo gramos.
+- Legumbres martes y viernes: ≈180 g escurridas. Pescado de las cenas: 170 g. Patata: 300 g (L/X/J), 250 g (M/V), 350 g (S). Nueces 20 g en el almuerzo de L/X/J (y en la comida de M/V).
+- Opcionales: skyr o griego ligero (125 g) a media mañana con algo de fruta; una onza de chocolate negro ≥85 % tras la cena.
+- Cafeína antes de entrenar: ≤200 mg, al menos 60 min antes.
 
 ## Forma de trabajo
 - Revisión con el cliente aprox. **mensual**: bioimpedancia, antropometría y consulta (fuera de este repo). Con esos datos se valora el mes y se discuten aquí los cambios del plan.

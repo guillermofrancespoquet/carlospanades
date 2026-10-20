@@ -234,16 +234,16 @@
 <!-- BLOQUE OBJETIVO -->
 <div style="background:var(--t50);border:.5px solid var(--t100);border-radius:16px;padding:1rem 1.25rem;margin-bottom:1.5rem;">
   <div style="font-size:11px;font-weight:600;color:var(--t800);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">Objetivo</div>
-  <p style="font-size:14px;font-weight:600;color:var(--t900);line-height:1.65;">Maximizar tu rendimiento en el campo mientras reducimos el % graso de forma controlada. Primer objetivo: bajar de 13,8% a menos de 13% de grasa corporal (bioimpedancia) para la próxima revisión. Combinamos un déficit calórico moderado con periodización de carbohidratos alrededor de tus entrenos y partidos, para no perder energía en el terreno de juego. También trabajamos tu salud cardiovascular: bajar el colesterol total es prioridad desde ya, con el LDL por debajo de 70 mg/dL como objetivo a medio-largo plazo.</p>
+  <p style="font-size:14px;font-weight:600;color:var(--t900);line-height:1.65;">Maximizar tu rendimiento en el campo mientras seguimos reduciendo el % graso de forma controlada. En este primer mes has bajado a 13,1% de grasa corporal (bioimpedancia); el siguiente objetivo es llegar a 12,5% y seguir reduciendo tus pliegues (suma de 6 pliegues por debajo de 45 mm), sin perder energía en el terreno de juego. Mantenemos un déficit calórico moderado y la periodización de carbohidratos alrededor de tus entrenos y partidos. También trabajamos tu salud cardiovascular: bajar el colesterol total es prioridad, con el LDL por debajo de 70 mg/dL como objetivo a medio-largo plazo.</p>
 </div>
 
 <div style="margin-top:2.5rem;">
   <div class="section-label">Impresiones del profesional</div>
   <div class="pn-impresiones">
-    <div class="pn-imp-item"><div class="pn-imp-dot pn-imp-dot-green"></div><div><strong>Buena base muscular.</strong> Músculo esquelético (48 kg) y masa muscular (43,8%) por encima de rango, con fuerza superior e inferior normales: margen de sobra para sostener un déficit sin comprometer la masa magra.</div></div>
-    <div class="pn-imp-item"><div class="pn-imp-dot pn-imp-dot-blue"></div><div><strong>Nueva etapa: reducción de % graso.</strong> Primer objetivo, bajar de 13,8% a menos de 13% de grasa corporal en bioimpedancia para la próxima revisión, protegiendo el rendimiento en el campo.</div></div>
-    <div class="pn-imp-item"><div class="pn-imp-dot pn-imp-dot-amber"></div><div><strong>A vigilar: SIBO diagnosticado.</strong> Tiene sobrecrecimiento bacteriano en intestino delgado, con hinchazón y dejadez asociadas — ajustamos raciones de legumbre y fibra fermentable, priorizando cocciones largas y porciones moderadas mientras valoramos tu tolerancia.</div></div>
-    <div class="pn-imp-item"><div class="pn-imp-dot pn-imp-dot-coral"></div><div><strong>Prioridad: composición corporal.</strong> IMC en sobrepeso I (25,4) pese a la buena base muscular — el foco es el déficit controlado con periodización de carbohidratos alrededor de tus entrenos y partidos, no una restricción genérica.</div></div>
+    <div class="pn-imp-item"><div class="pn-imp-dot pn-imp-dot-green"></div><div><strong>Primer mes: muy buena respuesta.</strong> Has pasado de 86,1 a 83,1 kg, la suma de 6 pliegues de 58,5 a 47,8 mm y la cintura de 88,6 a 85,8 cm. El % graso en bioimpedancia baja de 13,8% a 13,1% y tu IMC pasa a 24,5 (normopeso).</div></div>
+    <div class="pn-imp-item"><div class="pn-imp-dot pn-imp-dot-blue"></div><div><strong>Nueva etapa: consolidar la reducción de % graso.</strong> Siguiente objetivo, 12,5% de grasa corporal en bioimpedancia y suma de 6 pliegues por debajo de 45 mm, a un ritmo más suave y protegiendo el rendimiento en el campo.</div></div>
+    <div class="pn-imp-item"><div class="pn-imp-dot pn-imp-dot-amber"></div><div><strong>A vigilar: masa magra y energía antes de entrenar.</strong> Parte del peso perdido puede ser masa magra y agua, así que subimos algo los carbohidratos en días de entreno (patata, pasta, arroz) y la proteína vegetal (legumbre y nueces), y añadimos un skyr o yogur opcional a media mañana.</div></div>
+    <div class="pn-imp-item"><div class="pn-imp-dot pn-imp-dot-amber"></div><div><strong>SIBO: tolerancia mejor de lo esperado.</strong> Las legumbres de martes y viernes te sientan bien y vas mejor al baño, por lo que subimos algo la ración (≈180g) manteniendo el formato ensalada y las porciones moderadas.</div></div>
     <div class="pn-imp-item"><div class="pn-imp-dot pn-imp-dot-coral"></div><div><strong>Prioridad: perfil lipídico.</strong> Colesterol total (242 mg/dL) y LDL (162 mg/dL) por encima de rango, con buen HDL (68) y triglicéridos bajos (58). Bajar el colesterol total es prioridad ya desde ahora; el objetivo de LDL &lt;70 mg/dL lo trabajamos a medio-largo plazo, cuidando las fuentes de grasa saturada y sumando más fibra soluble y pescado azul según tu tolerancia digestiva.</div></div>
   </div>
 </div>
@@ -303,10 +303,10 @@ const days = [
     suppl: null,
     libre: false,
     meals: [
-      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nTomate natural\nPavo fiambre (2-3 lonchas, ≈50g)\nAOVE (1 cdta, moderado)\nFruta (1 pieza)", short:"Tostada + pavo + AOVE + fruta", note:"El AOVE es saludable pero muy calórico: 1 cucharadita es suficiente, no hace falta más.", libre:false },
-      { type:"C", time:"14:00–14:30", name:"Comida", tags:[], desc:"Arroz integral (1 vasito precocinado ≈125g, o 90-100g en crudo)\nPechuga de pollo (150g, un filete tipo palma de la mano)\nTomate, pepino y pimiento\nAOVE (1 cda, moderado)", short:"Arroz + pollo + verduras", note:"Mejor pechuga que contramuslo como base, aunque algún día puntual con contramuslo no pasa nada.", libre:false },
-      { type:"Me", time:"17:30–18:00", name:"Pre-entreno", tags:[], desc:"Tostada de pan blanco (1-2 rebanadas)\nMiel (1 cda)\nPlátano", short:"Tostada + miel + plátano", note:"Carga rápida de carbohidrato antes de entrenar.", libre:false },
-      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Salmón al horno (150g)\nPatata (250g, de bote en conserva o al momento en air fryer)\nLechuga, tomate y pepino\nKéfir", short:"Salmón + patata + ensalada + kéfir", note:"Priorizamos pescado azul por el colesterol.", libre:false }
+      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nTomate natural\nPavo fiambre (2-3 lonchas, ≈50g)\nAOVE (1 cdta, moderado)\nFruta (1 pieza)\nNueces (puñado, ≈20g)\nOpcional a media mañana: skyr o yogur griego ligero (125g) con algo de fruta", short:"Tostada + pavo + nueces + fruta", note:"El AOVE es saludable pero muy calórico: 1 cucharadita es suficiente, no hace falta más. Las nueces suman grasa buena y algo de proteína vegetal; el skyr o yogur de media mañana es opcional, solo si te apetece.", libre:false },
+      { type:"C", time:"14:00–14:30", name:"Comida", tags:[], desc:"Arroz integral (125g precocinado, o 80g en crudo)\nPechuga de pollo (150g, un filete tipo palma de la mano)\nTomate, pepino y pimiento\nAOVE (1 cda, moderado)", short:"Arroz + pollo + verduras", note:"Mejor pechuga que contramuslo como base, aunque algún día puntual con contramuslo no pasa nada.", libre:false },
+      { type:"Me", time:"17:30–18:00", name:"Pre-entreno", tags:[], desc:"Tostada de pan blanco (1-2 rebanadas)\nMiel (1 cda)\nPlátano", short:"Tostada + miel + plátano", note:"Carga rápida de carbohidrato antes de entrenar. Si te tomas un café antes, que sea de ≤200mg de cafeína (≈2 cafés) y al menos 60 min antes, para no recortar tu sueño.", libre:false },
+      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Salmón al horno (170g)\nPatata (300g, de bote en conserva o al momento en air fryer)\nLechuga, tomate y pepino\nKéfir\nPost cena (opcional): 1 onza de chocolate negro ≥85%", short:"Salmón + patata + ensalada + kéfir", note:"Priorizamos pescado azul por el colesterol.", libre:false }
     ]
   },
   {
@@ -318,9 +318,9 @@ const days = [
     suppl: null,
     libre: false,
     meals: [
-      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nAguacate (1/2 unidad)\nTomate en rodajas", short:"Tostada + aguacate + tomate", note:"Sin AOVE hoy: el aguacate ya aporta grasa saludable de por sí.", libre:false },
-      { type:"C", time:"14:00–14:30", name:"Ensalada de garbanzos", tags:[], desc:"Garbanzos cocidos (≈150g escurridos)\nLechuga, tomate y zanahoria rallada\nAtún (1 lata)\nNueces (puñado, ≈20g)", short:"Ensalada de garbanzos + atún + nueces", note:"Legumbre en día sin entreno, en modo ensalada — vamos probando tu tolerancia digestiva al SIBO. Las nueces son calóricas, un puñado es suficiente.", libre:false },
-      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Pechuga de pollo (150g)\nPatata (250g, de bote en conserva o al momento en air fryer)\nBrócoli y zanahoria congelados\nFruta", short:"Pollo + patata + brócoli/zanahoria + fruta", note:"Cena estándar de descanso.", libre:false }
+      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nAguacate (1/2 unidad)\nTomate en rodajas\nOpcional a media mañana: skyr o yogur griego ligero (125g) con algo de fruta", short:"Tostada + aguacate + tomate", note:"Sin AOVE hoy: el aguacate ya aporta grasa saludable de por sí.", libre:false },
+      { type:"C", time:"14:00–14:30", name:"Ensalada de garbanzos", tags:[], desc:"Garbanzos cocidos (≈180g escurridos)\nLechuga, tomate y zanahoria rallada\nAtún (1 lata)\nNueces (puñado, ≈20g)", short:"Ensalada de garbanzos + atún + nueces", note:"Legumbre en día sin entreno, en modo ensalada — tu tolerancia digestiva al SIBO va bien, por eso subimos algo la cantidad. Las nueces son calóricas, un puñado es suficiente.", libre:false },
+      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Pechuga de pollo (150g)\nPatata (250g, de bote en conserva o al momento en air fryer)\nBrócoli y zanahoria congelados\nFruta\nPost cena (opcional): 1 onza de chocolate negro ≥85%", short:"Pollo + patata + brócoli/zanahoria + fruta", note:"Cena estándar de descanso.", libre:false }
     ]
   },
   {
@@ -332,10 +332,10 @@ const days = [
     suppl: null,
     libre: false,
     meals: [
-      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nTomate natural\nHuevo revuelto (2 huevos)\nAOVE (1 cdta, moderado)", short:"Tostada + huevo + tomate", note:"Único día de huevo en la semana — el resto de días priorizamos otras proteínas por el colesterol.", libre:false },
-      { type:"C", time:"14:00–14:30", name:"Comida", tags:[], desc:"Pasta integral (80-90g en crudo)\nTomate natural triturado (o frito, 2 cdas si no te gusta el natural)\nCalabacín, champiñón y pimiento salteados (pueden ser congelados)\nAtún (1 lata)", short:"Pasta + tomate + verduras + atún", note:"Cereal fácil de digerir antes del entreno de las 19h.", libre:false },
-      { type:"Me", time:"17:30–18:00", name:"Pre-entreno", tags:[], desc:"Tostada de pan blanco (1-2 rebanadas)\nMiel (1 cda)\nPlátano", short:"Tostada + miel + plátano", note:"Carga rápida de carbohidrato antes de entrenar.", libre:false },
-      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Caballa (150g)\nPatata (250g, de bote en conserva o al momento en air fryer)\nJudía verde y zanahoria congeladas\nKéfir", short:"Caballa + patata + verduras + kéfir", note:"Pescado azul pequeño, buena opción para el colesterol.", libre:false }
+      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nTomate natural\nHuevo revuelto (2 huevos)\nAOVE (1 cdta, moderado)\nNueces (puñado, ≈20g)\nOpcional a media mañana: skyr o yogur griego ligero (125g) con algo de fruta", short:"Tostada + huevo + tomate + nueces", note:"Único día de huevo en la semana — el resto de días priorizamos otras proteínas por el colesterol.", libre:false },
+      { type:"C", time:"14:00–14:30", name:"Comida", tags:[], desc:"Pasta integral (100g en crudo)\nTomate natural triturado (o frito, 2 cdas si no te gusta el natural)\nCalabacín, champiñón y pimiento salteados (pueden ser congelados)\nAtún (1 lata)", short:"Pasta + tomate + verduras + atún", note:"Cereal fácil de digerir antes del entreno de las 19h.", libre:false },
+      { type:"Me", time:"17:30–18:00", name:"Pre-entreno", tags:[], desc:"Tostada de pan blanco (1-2 rebanadas)\nMiel (1 cda)\nPlátano", short:"Tostada + miel + plátano", note:"Carga rápida de carbohidrato antes de entrenar. Si te tomas un café antes, que sea de ≤200mg de cafeína (≈2 cafés) y al menos 60 min antes, para no recortar tu sueño.", libre:false },
+      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Caballa (170g)\nPatata (300g, de bote en conserva o al momento en air fryer)\nJudía verde y zanahoria congeladas\nKéfir\nPost cena (opcional): 1 onza de chocolate negro ≥85%", short:"Caballa + patata + verduras + kéfir", note:"Pescado azul pequeño, buena opción para el colesterol.", libre:false }
     ]
   },
   {
@@ -347,10 +347,10 @@ const days = [
     suppl: null,
     libre: false,
     meals: [
-      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nAguacate (1/2 unidad)\nPavo fiambre (2-3 lonchas, ≈50g)", short:"Tostada + aguacate + pavo", note:"Sin huevo ni jamón hoy — ya los tienes cubiertos esta semana.", libre:false },
-      { type:"C", time:"14:00–14:30", name:"Comida", tags:[], desc:"Quinoa precocinada (1 vasito ≈125g)\nPavo a la plancha (150g)\nTomate, maíz y pimiento", short:"Quinoa + pavo + verduras", note:"Variamos el cereal respecto al resto de la semana. Mismo peso de referencia que el pollo.", libre:false },
-      { type:"Me", time:"17:30–18:00", name:"Pre-entreno", tags:[], desc:"Tostada de pan blanco (1-2 rebanadas)\nMiel (1 cda)\nPlátano", short:"Tostada + miel + plátano", note:"Carga rápida de carbohidrato antes de entrenar.", libre:false },
-      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Pechuga de pollo (150g)\nPatata (250g, de bote en conserva o al momento en air fryer)\nLechuga, tomate y maíz\nFruta", short:"Pollo + patata + ensalada + fruta", note:"Cena estándar de recuperación.", libre:false }
+      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nAguacate (1/2 unidad)\nPavo fiambre (2-3 lonchas, ≈50g)\nNueces (puñado, ≈20g)\nOpcional a media mañana: skyr o yogur griego ligero (125g) con algo de fruta", short:"Tostada + aguacate + pavo + nueces", note:"Sin huevo ni jamón hoy — ya los tienes cubiertos esta semana.", libre:false },
+      { type:"C", time:"14:00–14:30", name:"Comida", tags:[], desc:"Quinoa precocinada (125g)\nPavo a la plancha (150g)\nTomate, maíz y pimiento", short:"Quinoa + pavo + verduras", note:"Variamos el cereal respecto al resto de la semana. Mismo peso de referencia que el pollo.", libre:false },
+      { type:"Me", time:"17:30–18:00", name:"Pre-entreno", tags:[], desc:"Tostada de pan blanco (1-2 rebanadas)\nMiel (1 cda)\nPlátano", short:"Tostada + miel + plátano", note:"Carga rápida de carbohidrato antes de entrenar. Si te tomas un café antes, que sea de ≤200mg de cafeína (≈2 cafés) y al menos 60 min antes, para no recortar tu sueño.", libre:false },
+      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Pechuga de pollo (150g)\nPatata (300g, de bote en conserva o al momento en air fryer)\nLechuga, tomate y maíz\nFruta\nPost cena (opcional): 1 onza de chocolate negro ≥85%", short:"Pollo + patata + ensalada + fruta", note:"Cena estándar de recuperación.", libre:false }
     ]
   },
   {
@@ -362,9 +362,9 @@ const days = [
     suppl: null,
     libre: false,
     meals: [
-      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nTomate natural\nJamón serrano (3-4 lonchas)", short:"Tostada + jamón + tomate", note:"Único día de jamón serrano en la semana — el resto de días priorizamos otras proteínas por el colesterol.", libre:false },
-      { type:"C", time:"14:00–14:30", name:"Ensalada de alubias", tags:[], desc:"Alubias cocidas (≈150g escurridas)\nZanahoria, pepino y tomate\nPollo a la plancha (150g) o huevo duro\nNueces (puñado, ≈20g)", short:"Ensalada de alubias + pollo/huevo + nueces", note:"Segunda ración de legumbre de la semana, en modo ensalada y en día sin entreno — seguimos valorando tu tolerancia al SIBO.", libre:false },
-      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Merluza (150g)\nPatata (250g, de bote en conserva o al momento en air fryer)\nBrócoli y coliflor congelados\nKéfir", short:"Merluza + patata + verduras + kéfir", note:"Cena ligera antes del fin de semana de entreno y partido.", libre:false }
+      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nTomate natural\nJamón serrano (3-4 lonchas)\nOpcional a media mañana: skyr o yogur griego ligero (125g) con algo de fruta", short:"Tostada + jamón + tomate", note:"Único día de jamón serrano en la semana — el resto de días priorizamos otras proteínas por el colesterol.", libre:false },
+      { type:"C", time:"14:00–14:30", name:"Ensalada de alubias", tags:[], desc:"Alubias cocidas (≈180g escurridas)\nZanahoria, pepino y tomate\nPollo a la plancha (150g) o huevo duro\nNueces (puñado, ≈20g)", short:"Ensalada de alubias + pollo/huevo + nueces", note:"Segunda ración de legumbre de la semana, en modo ensalada y en día sin entreno — tu tolerancia al SIBO va bien, por eso subimos algo la cantidad.", libre:false },
+      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Merluza (170g)\nPatata (250g, de bote en conserva o al momento en air fryer)\nBrócoli y coliflor congelados\nKéfir\nPost cena (opcional): 1 onza de chocolate negro ≥85%", short:"Merluza + patata + verduras + kéfir", note:"Cena ligera antes del fin de semana de entreno y partido.", libre:false }
     ]
   },
   {
@@ -377,8 +377,8 @@ const days = [
     libre: false,
     meals: [
       { type:"A", time:"7:30–8:00", name:"Pre-entreno", tags:[], desc:"Tostada de pan blanco (1-2 rebanadas)\nMiel (1 cda)\nPlátano", short:"Tostada + miel + plátano", note:"Carbohidrato rápido antes del entreno de las 9:30h.", libre:false },
-      { type:"C", time:"14:00–14:30", name:"Comida", tags:[], desc:"Arroz blanco (1 vasito precocinado ≈125g — blanco, no integral)\nPechuga de pollo (150g)\nLechuga, tomate y zanahoria", short:"Arroz blanco + pollo + ensalada", note:"Arroz blanco en vez de integral: mañana toca partido y reducimos algo la fibra desde hoy.", libre:false },
-      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Pescado blanco (lubina o dorada, 150g)\nPatata (250g, de bote en conserva o al momento en air fryer)\nJudía verde y zanahoria congeladas\nFruta", short:"Pescado blanco + patata + verduras + fruta", note:"Cena de cara al partido de mañana.", libre:false }
+      { type:"C", time:"14:00–14:30", name:"Comida", tags:[], desc:"Arroz blanco (150g en crudo — blanco, no integral)\nPechuga de pollo (150g)\nLechuga, tomate y zanahoria\nOpcional tras el entreno: skyr o yogur griego ligero (125g) con algo de fruta", short:"Arroz blanco + pollo + ensalada", note:"Arroz blanco en vez de integral: mañana toca partido y reducimos algo la fibra desde hoy. La ración es algo mayor para cargar carbohidrato la víspera.", libre:false },
+      { type:"Ce", time:"21:30", name:"Cena", tags:[], desc:"Pescado blanco (lubina o dorada, 170g)\nPatata (350g, de bote en conserva o al momento en air fryer)\nJudía verde y zanahoria congeladas\nFruta\nPost cena (opcional): 1 onza de chocolate negro ≥85%", short:"Pescado blanco + patata + verduras + fruta", note:"Cena de cara al partido de mañana.", libre:false }
     ]
   },
   {
@@ -390,7 +390,7 @@ const days = [
     suppl: null,
     libre: true,
     meals: [
-      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nTomate natural\nPavo fiambre (2-3 lonchas, ≈50g)\nFruta (1 pieza)", short:"Tostada + pavo + tomate + fruta", note:"Almuerzo estándar, el partido es por la tarde.", libre:false },
+      { type:"A", time:"9:00", name:"Almuerzo", tags:[], desc:"Tostada integral o de centeno (2 rebanadas)\nTomate natural\nPavo fiambre (2-3 lonchas, ≈50g)\nFruta (1 pieza)\nOpcional a media mañana: skyr o yogur griego ligero (125g) con algo de fruta", short:"Tostada + pavo + tomate + fruta", note:"Almuerzo estándar, el partido es por la tarde.", libre:false },
       { type:"C", time:"3-4h antes del partido", name:"Comida pre-partido", tags:[], desc:"Pasta blanca (110-120g en crudo)\nPechuga de pollo (150g)\nTomate frito", short:"Pasta blanca + pollo + tomate frito", note:"Pasta blanca y sin verdura cruda para reducir la fibra y facilitar la absorción de carbohidrato. Cómela 3-4h antes del inicio del partido.", libre:false },
       { type:"Me", time:"~1h antes del partido", name:"Snack pre-partido", tags:[], desc:"Isotónica (≈500ml)\nGuayaba, 1/2 plátano o un puñado de pasas\nTostada de pan blanco con mermelada o miel (o tortitas de arroz con mermelada)", short:"Isotónica + fruta rápida + pan/mermelada", note:"Carga rápida de energía e hidratación con electrolitos cerca del partido.", libre:false },
       { type:"Ce", time:"21:00–22:00", name:"Cena libre (recuperación)", tags:[], desc:"Carbohidrato como base (arroz, patata, pan o pasta)\nProteína (carne, pescado o pollo)\nVerdura o ensalada", short:"Cena libre — carbohidrato + proteína", note:"Después de los 90 minutos, el carbohidrato es lo que más te interesa para recuperar cuanto antes — que sea la base de la cena, con la proteína como acompañamiento. Si el partido es fuera y te la llevas en tupper, algunos ejemplos: arroz blanco con pechuga de pollo y tomate · pasta con atún y tomate natural · patata cocida con salmón o pavo y verdura al vapor · wrap integral de pollo, aguacate y verduras · opción plant-based sencilla: arroz blanco con garbanzos, tomate y AOVE, o 2 sándwiches de pan integral con hummus y verdura. Sigue siendo libre — es tu momento de adherencia de la semana.", libre:true }
@@ -406,24 +406,25 @@ const shopCategories = [
       { name: "Pavo fiambre (para almuerzo)", qty: "1 paquete" },
       { name: "Pechuga de pollo", qty: "≈900g (150g x 6)" },
       { name: "Pavo (filete)", qty: "150g" },
-      { name: "Merluza", qty: "150g" },
-      { name: "Caballa", qty: "150g" },
-      { name: "Salmón", qty: "150g" },
-      { name: "Pescado blanco (lubina/dorada)", qty: "150g" },
-      { name: "Garbanzos (bote 400g)", qty: "1 bote (≈150g escurridos)" },
-      { name: "Alubias (bote 400g)", qty: "1 bote (≈150g escurridas)" },
-      { name: "Kéfir", qty: "1 botella" }
+      { name: "Merluza", qty: "170g" },
+      { name: "Caballa", qty: "170g" },
+      { name: "Salmón", qty: "170g" },
+      { name: "Pescado blanco (lubina/dorada)", qty: "170g" },
+      { name: "Garbanzos (bote 400g)", qty: "1 bote (≈180g escurridos)" },
+      { name: "Alubias (bote 400g)", qty: "1 bote (≈180g escurridas)" },
+      { name: "Kéfir", qty: "1 botella" },
+      { name: "Skyr o yogur griego ligero (opcional)", qty: "125g/día — 1 pack de 6-7 uds" }
   ]},
   { label: "🌾 Carbohidratos", cls: "cat-carb", items: [
-      { name: "Vasitos de arroz integral precocinado", qty: "2 uds" },
-      { name: "Vasito de arroz blanco precocinado", qty: "1 ud — sábado (víspera de partido)" },
-      { name: "Vasito de quinoa precocinada", qty: "1 ud" },
-      { name: "Pasta integral", qty: "80-90g crudo" },
+      { name: "Arroz integral", qty: "125g precocinado (1 ud) o 80g en crudo — lunes" },
+      { name: "Arroz blanco", qty: "150g en crudo — sábado (víspera de partido)" },
+      { name: "Quinoa precocinada", qty: "125g — jueves" },
+      { name: "Pasta integral", qty: "100g crudo — miércoles" },
       { name: "Pasta blanca", qty: "110-120g crudo — domingo (día de partido)" },
       { name: "Pan integral o de centeno (para tostadas)", qty: "1 barra/paquete" },
       { name: "Pan blanco (para pre-entreno/pre-partido)", qty: "1 barra" },
       { name: "Tortitas de arroz", qty: "1 paquete (alternativa domingo)" },
-      { name: "Patata (de bote en conserva o para air fryer)", qty: "1,5 kg (250g x 6)" },
+      { name: "Patata (de bote en conserva o para air fryer)", qty: "≈1,75 kg (250-350g por cena)" },
       { name: "Plátanos", qty: "4 uds" },
       { name: "Guayaba (o pasas como alternativa)", qty: "según semana — domingo pre-partido" },
       { name: "Mermelada", qty: "1 tarro" }
@@ -431,10 +432,11 @@ const shopCategories = [
   { label: "🥑 Grasas", cls: "cat-fat", items: [
       { name: "AOVE (uso moderado, 1 cdta/cda por comida)", qty: "1 botella" },
       { name: "Aguacate", qty: "2 uds" },
-      { name: "Nueces", qty: "1 puñado x2 (≈40g)" }
+      { name: "Nueces", qty: "≈100g (5 puñados de 20g)" }
   ]},
   { label: "🧄 Extras", cls: "cat-extra", items: [
       { name: "Miel", qty: "1 tarro" },
+      { name: "Chocolate negro ≥85%", qty: "1 tableta pequeña (1 onza/día, opcional)" },
       { name: "Isotónica", qty: "500ml — domingo pre-partido" },
       { name: "Tomate", qty: "según semana" },
       { name: "Tomate frito (bote)", qty: "1 bote pequeño — domingo pre-partido" },
