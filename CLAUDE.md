@@ -10,7 +10,8 @@ Planificación nutricional de **Carlos Panadés Zaragoza**, cliente de Guille (N
 index.html                                  plan del cliente (HTML autónomo, estilo app NutriLogos v1.0); se publica con GitHub Pages
 Logo.png                                    icono (apple-touch-icon)
 _headers.txt                                cabeceras de caché (no-cache)
-INSTRUCCIONES_ESTILO_APP_NUTRILOGOS_v1.0.txt  guía de estilo visual: tokens, CSS completo, checklist
+INSTRUCCIONES_PLANTILLA_NUTRILOGOS_v5.0.txt   plantilla base: estructura HTML, CSS, JS, checklist
+INSTRUCCIONES_ESTILO_APP_NUTRILOGOS_v1.0.txt  capa visual app sobre la v5.0: tokens, CSS completo, checklist
 CLAUDE.md                                   este archivo
 ```
 - `index.html` = plan ya en estilo app (no hay versión v5.0 aparte ni sufijo `_app`; la regla del sufijo de la guía no aplica aquí).
@@ -23,7 +24,8 @@ Orden: h1 + subtítulo → Objetivo → Impresiones del profesional → Menú se
 - Sin suplementación, sin recetas, sin batch cooking en este plan (los hooks existen en el JS pero no se usan).
 
 ## Estilo
-- Seguir `INSTRUCCIONES_ESTILO_APP_NUTRILOGOS_v1.0.txt`: solo es capa visual (CSS/colores); no cambia estructura ni JS.
+- Estructura, JS y reglas: `INSTRUCCIONES_PLANTILLA_NUTRILOGOS_v5.0.txt`. Aspecto: `INSTRUCCIONES_ESTILO_APP_NUTRILOGOS_v1.0.txt` (solo capa visual: CSS/colores; sustituye el CSS de la v5.0 y no cambia estructura ni JS).
+- La v1.0 omite del HTML la descripción del cliente, el perfil con métricas y la próxima revisión (la app ya los muestra). Es la variante de este plan.
 - Tras cualquier cambio: comprobar JS con `node --check` (extrayendo el `<script>`), revisar en móvil (~430 px) y escritorio, y que el `@media print` siga intacto.
 - Objetivo redactado como "base plant-based" (sin "100%").
 
