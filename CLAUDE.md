@@ -42,10 +42,18 @@ Orden: h1 + subtítulo → Objetivo → Impresiones del profesional → Menú se
 
 ## Objetivo energético (decidido con Guille)
 - Déficit calórico **moderado de 300-500 kcal** respecto al gasto, con periodización de carbohidratos (más en entreno/partido, menos en descanso) y sin perder rendimiento.
-- Cálculo de macros del plan actual: hecho en sesión; el menú queda muy por debajo de ese objetivo (ver conversación). Pendiente decidir el ajuste de cantidades.
+- Cálculo NutriLogos (20/10/2026): BMR 1846 kcal (rango 1606-2086) · TDEE 2861 · **objetivo 2432 kcal/día** (≈ −430 kcal; pérdida ≈ 0,47 %/semana) · P 133 g (22 %) · G 68 g (25 %) · HC 323 g (53 %) · masa libre de grasa 75 kg.
+- **Proteína: techo de 1,6 g/kg de peso.** Con su historial es suficiente para cubrir requerimientos con margen; no subir más con la evidencia actual (decisión de Guille).
+- Estimación de macros del menú actual (tablas estándar, orientativa): ~1485 kcal/día de media (rango realista 1500-1650), P ~100 g, HC ~197 g, G ~32 g. Queda por debajo del objetivo; **no se ajusta ahora**, se decide en la próxima revisión mensual con datos reales.
+
+## Forma de trabajo
+- Revisión con el cliente aprox. **mensual**: bioimpedancia, antropometría y consulta (fuera de este repo). Con esos datos se valora el mes y se discuten aquí los cambios del plan.
+- No cambiar cantidades del menú entre revisiones salvo petición de Guille.
 
 ## Decisiones cerradas
 - Revisiones: se gestionan fuera de este repo; no tocar la sección ni preocuparse de fechas.
+- Estilo: prevalece la v1.0 (app) sobre la v5.0.
+- Repo y HTML se quedan **públicos y con los datos actuales** hasta la próxima revisión; entonces se actualizan.
 - Solo semana típica, sin versión alterna.
 - El lenguaje actual del plan (impresiones, subtítulo) se mantiene.
 - Hallazgos fuera del ámbito nutricional: no se comunican al cliente y no se escriben en el repo.
@@ -53,8 +61,9 @@ Orden: h1 + subtítulo → Objetivo → Impresiones del profesional → Menú se
 ## Privacidad (repo público)
 - Todo lo que está aquí es público. Los datos clínicos detallados (analíticas, hallazgos fuera de ámbito nutricional, notas internas) **no van en el repo**: viven en el .md del cliente fuera del repo. No subir ese .md ni PDFs de pruebas.
 - Antes de subir cualquier archivo nuevo, pensar si se publicará por Pages.
-- Pendiente de decidir: `index.html` ya muestra datos de salud (colesterol, tolerancia digestiva) con nombre del cliente en una URL pública.
+- `index.html` muestra datos de salud con nombre del cliente en una URL pública: Guille lo mantiene así hasta la próxima revisión.
 
 ## Reglas de trabajo
 - No renombrar archivos (PDFs, etc.) del cliente de forma unilateral al depurar; si falla un enlace, pedir primero la URL en vivo de GitHub Pages.
-- Ramas: desarrollar en la rama asignada a la sesión; no abrir PRs salvo petición; no tocar `main` directamente.
+- Ramas: desarrollar en la rama asignada a la sesión; no tocar `main` directamente.
+- PR y merge: Guille autoriza abrir PR y fusionarlo **solo después de aprobar los cambios en el chat**. Sin aprobación, no hacer PR ni merge.
