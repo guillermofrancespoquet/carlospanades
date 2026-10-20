@@ -43,6 +43,7 @@ Orden: h1 + subtítulo → Objetivo → Impresiones del profesional → Menú se
 ## Objetivo energético (decidido con Guille)
 - Déficit calórico **moderado de 300-500 kcal** respecto al gasto, con periodización de carbohidratos (más en entreno/partido, menos en descanso) y sin perder rendimiento.
 - Cálculo NutriLogos (20/10/2026): BMR 1846 kcal (rango 1606-2086) · TDEE 2861 · **objetivo 2432 kcal/día** (≈ −430 kcal; pérdida ≈ 0,47 %/semana) · P 133 g (22 %) · G 68 g (25 %) · HC 323 g (53 %) · masa libre de grasa 75 kg.
+- Los 133 g de proteína salen de la nueva valoración (el cliente ha bajado ~3 kg respecto a la inicial).
 - **Proteína: techo de 1,6 g/kg de peso.** Con su historial es suficiente para cubrir requerimientos con margen; no subir más con la evidencia actual (decisión de Guille).
 - Estimación de macros del menú actual (tablas estándar, orientativa): ~1485 kcal/día de media (rango realista 1500-1650), P ~100 g, HC ~197 g, G ~32 g. Queda por debajo del objetivo; **no se ajusta ahora**, se decide en la próxima revisión mensual con datos reales.
 
@@ -66,4 +67,4 @@ Orden: h1 + subtítulo → Objetivo → Impresiones del profesional → Menú se
 ## Reglas de trabajo
 - No renombrar archivos (PDFs, etc.) del cliente de forma unilateral al depurar; si falla un enlace, pedir primero la URL en vivo de GitHub Pages.
 - Ramas: desarrollar en la rama asignada a la sesión; no tocar `main` directamente.
-- PR y merge: Guille autoriza abrir PR y fusionarlo **solo después de aprobar los cambios en el chat**. Sin aprobación, no hacer PR ni merge.
+- PR y merge: se puede abrir PR siempre que haga falta; **fusionar solo cuando Guille lo diga** en el chat.
