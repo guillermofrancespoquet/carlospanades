@@ -1,13 +1,13 @@
-# Carlos Panadés (PANA) – Contexto del repo
+# Carlos Panadés – Contexto del repo
 
-Planificación nutricional de **Carlos Panadés Zaragoza**, cliente de Guille (NutriLogos). Este repo es la fuente de verdad del plan; se gestiona desde aquí, no desde el chat.
+Planificación nutricional de un cliente de Guille (NutriLogos). **Repo público** (GitHub Pages). Este repo es la fuente de verdad del plan; se gestiona desde aquí, no desde el chat.
 
 ## Idioma
 - Todo en **español** (plan, notas, commits). El plan se redacta en segunda persona ("tu rendimiento", "tu tolerancia").
 
 ## Archivos
 ```
-index.html                                  plan del cliente (HTML autónomo, estilo app NutriLogos v1.0); se publica con GitHub Pages
+index.html                                  plan del cliente (HTML autónomo, estilo app NutriLogos v1.0); se llama index.html para que Pages lo publique (en la documentación del cliente figura como carlos-panades.html)
 Logo.png                                    icono (apple-touch-icon)
 _headers.txt                                cabeceras de caché (no-cache)
 INSTRUCCIONES_PLANTILLA_NUTRILOGOS_v5.0.txt   plantilla base: estructura HTML, CSS, JS, checklist
@@ -15,7 +15,7 @@ INSTRUCCIONES_ESTILO_APP_NUTRILOGOS_v1.0.txt  capa visual app sobre la v5.0: tok
 CLAUDE.md                                   este archivo
 ```
 - `index.html` = plan ya en estilo app (no hay versión v5.0 aparte ni sufijo `_app`; la regla del sufijo de la guía no aplica aquí).
-- Los PDFs de antropometría y bioimpedancia (07-09-2026) ya no están en el repo y el HTML no los enlaza.
+- Los PDFs de antropometría y bioimpedancia ya no están en el repo y el HTML no los enlaza.
 
 ## Estructura de `index.html`
 Orden: h1 + subtítulo → Objetivo → Impresiones del profesional → Menú semanal de un vistazo (`#printArea`) → Menú desarrollado por días → Lista de compra semanal.
@@ -30,25 +30,30 @@ Orden: h1 + subtítulo → Objetivo → Impresiones del profesional → Menú se
 - Objetivo redactado como "base plant-based" (sin "100%").
 
 ## Criterios nutricionales del plan (decididos con Guille)
-- Enfoque: base animal con transición progresiva a plant-based (preferencias, practicidad, SIBO).
+- Enfoque: base animal con transición progresiva a plant-based (preferencias, practicidad, tolerancia digestiva).
 - 4 comidas: Almuerzo, Comida, Merienda (solo días de entreno/pre-partido) y Cena. No desayuna de forma tradicional.
-- Días: entreno L/X/J (19h) y S (9:30h); partido D (tarde). Semana alterna: entreno L/X/J/V y partido S. Descanso M y V (o D en la alterna).
-- Legumbres solo en días sin entreno, formato ensalada, cantidad gradual (SIBO).
+- Días: entreno L/X/J (19h) y S (9:30h); partido D (tarde). Solo se planifica la semana típica (la alterna queda fuera por ahora). Descanso M y V.
+- Legumbres solo en días sin entreno, formato ensalada, cantidad gradual (tolerancia digestiva).
 - Huevo y jamón serrano: 1 vez/semana cada uno. AOVE moderado. Pescado azul pequeño en cenas. Pechuga preferida, también pavo.
 - Pan integral/centeno por defecto; pan blanco solo pre-entreno/pre-partido. Arroz blanco víspera de partido.
 - Exclusión: dátil (sustituir por guayaba, ½ plátano o pasas).
 - Cena libre post-partido: carbohidrato como base, sin llamarla "capricho".
 - Sin batch cooking; cocina a diario (horno, air fryer, fogones, 15-45 min).
 
-## Pendientes abiertos (ver también el .md del cliente)
-- **Calorías**: el menú promedia ~1650-1700 kcal/día, por debajo del TMB (1973) en días de descanso y muy por debajo del gasto estimado. Decidir con Guille: subir cantidades en descanso o replantear el déficit.
-- **Proteína**: ~106 g/día vs objetivo ~138 g (1,6 g/kg). Subir legumbre/tofu/edamame antes que añadir batido.
-- **Revisión**: la fecha fijada (12/10/2026) ya pasó; reprogramar y repetir bioimpedancia y perfil lipídico.
-- Semana alterna: el HTML solo detalla la semana típica; la alterna se describe en la nota de la tabla.
+## Objetivo energético (decidido con Guille)
+- Déficit calórico **moderado de 300-500 kcal** respecto al gasto, con periodización de carbohidratos (más en entreno/partido, menos en descanso) y sin perder rendimiento.
+- Cálculo de macros del plan actual: hecho en sesión; el menú queda muy por debajo de ese objetivo (ver conversación). Pendiente decidir el ajuste de cantidades.
 
-## Privacidad (datos de salud de un cliente)
-- Los datos clínicos detallados (analíticas, hallazgos fuera de ámbito nutricional, notas internas) **no van en el repo**: viven en el .md del cliente fuera del repo. El HTML solo lleva lo imprescindible para el plan.
+## Decisiones cerradas
+- Revisiones: se gestionan fuera de este repo; no tocar la sección ni preocuparse de fechas.
+- Solo semana típica, sin versión alterna.
+- El lenguaje actual del plan (impresiones, subtítulo) se mantiene.
+- Hallazgos fuera del ámbito nutricional: no se comunican al cliente y no se escriben en el repo.
+
+## Privacidad (repo público)
+- Todo lo que está aquí es público. Los datos clínicos detallados (analíticas, hallazgos fuera de ámbito nutricional, notas internas) **no van en el repo**: viven en el .md del cliente fuera del repo. No subir ese .md ni PDFs de pruebas.
 - Antes de subir cualquier archivo nuevo, pensar si se publicará por Pages.
+- Pendiente de decidir: `index.html` ya muestra datos de salud (colesterol, tolerancia digestiva) con nombre del cliente en una URL pública.
 
 ## Reglas de trabajo
 - No renombrar archivos (PDFs, etc.) del cliente de forma unilateral al depurar; si falla un enlace, pedir primero la URL en vivo de GitHub Pages.
