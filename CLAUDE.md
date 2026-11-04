@@ -10,7 +10,7 @@ Planificación nutricional de un cliente de Guille (NutriLogos). **Repo público
 index.html                                  plan del cliente (HTML autónomo, estilo app NutriLogos); se llama index.html para que Pages lo publique (en la documentación del cliente figura como carlos-panades.html)
 Logo.png                                    icono (apple-touch-icon)
 _headers.txt                                cabeceras de caché (no-cache)
-INSTRUCCIONES_NUTRILOGOS_v6.0.txt           guía unificada vigente (estructura, estilo app, datos, proceso, checklist); copia de la del repo maestro
+INSTRUCCIONES_NUTRILOGOS_v6.1.txt           guía del plan HTML (estructura, estilo, datos, checklist y plantilla completa); copia de la del repo maestro
 CLAUDE.md                                   este archivo
 ```
 - `index.html` = plan ya en estilo app (no hay versión aparte ni sufijo `_app`).
@@ -23,7 +23,7 @@ Orden: h1 + subtítulo → Objetivo → Impresiones del profesional → Menú se
 - Sin suplementación, sin recetas, sin batch cooking en este plan (los hooks existen en el JS pero no se usan).
 
 ## Estilo
-- Estructura, estilo app, JS y reglas: `INSTRUCCIONES_NUTRILOGOS_v6.0.txt` (sustituye a las antiguas v5.0 y v1.0, que ya no están en este repo; siguen en el historial de Git y en `archivo/` del repo maestro).
+- Estructura, estilo app, JS y reglas: `INSTRUCCIONES_NUTRILOGOS_v6.1.txt` (sustituye a las antiguas v5.0 y v1.0, que ya no están en este repo; siguen en el historial de Git).
 - La guía omite del HTML la descripción del cliente, el perfil con métricas y la próxima revisión (la app ya los muestra). Es la variante de este plan.
 - Este `index.html` se creó con la v5.0 + v1.0; no hace falta rehacerlo con la plantilla nueva salvo que Guille lo pida.
 - Tras cualquier cambio: comprobar JS con `node --check` (extrayendo el `<script>`), revisar en móvil (~430 px) y escritorio, y que el `@media print` siga intacto.
@@ -66,7 +66,7 @@ Orden: h1 + subtítulo → Objetivo → Impresiones del profesional → Menú se
 
 ## Decisiones cerradas
 - Revisiones: se gestionan fuera de este repo; no tocar la sección ni preocuparse de fechas.
-- Estilo: el de la app (guía v6.0).
+- Estilo: el de la app (guía v6.1).
 - Repo y HTML se quedan **públicos y con los datos actuales** hasta la próxima revisión; entonces se actualizan.
 - Solo semana típica, sin versión alterna.
 - El lenguaje actual del plan (impresiones, subtítulo) se mantiene.
