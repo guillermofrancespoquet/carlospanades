@@ -7,14 +7,13 @@ Planificación nutricional de un cliente de Guille (NutriLogos). **Repo público
 
 ## Archivos
 ```
-index.html                                  plan del cliente (HTML autónomo, estilo app NutriLogos v1.0); se llama index.html para que Pages lo publique (en la documentación del cliente figura como carlos-panades.html)
+index.html                                  plan del cliente (HTML autónomo, estilo app NutriLogos); se llama index.html para que Pages lo publique (en la documentación del cliente figura como carlos-panades.html)
 Logo.png                                    icono (apple-touch-icon)
 _headers.txt                                cabeceras de caché (no-cache)
-INSTRUCCIONES_PLANTILLA_NUTRILOGOS_v5.0.txt   plantilla base: estructura HTML, CSS, JS, checklist
-INSTRUCCIONES_ESTILO_APP_NUTRILOGOS_v1.0.txt  capa visual app sobre la v5.0: tokens, CSS completo, checklist
+INSTRUCCIONES_NUTRILOGOS_v6.0.txt           guía unificada vigente (estructura, estilo app, datos, proceso, checklist); copia de la del repo maestro
 CLAUDE.md                                   este archivo
 ```
-- `index.html` = plan ya en estilo app (no hay versión v5.0 aparte ni sufijo `_app`; la regla del sufijo de la guía no aplica aquí).
+- `index.html` = plan ya en estilo app (no hay versión aparte ni sufijo `_app`).
 - Los PDFs de antropometría y bioimpedancia ya no están en el repo y el HTML no los enlaza.
 
 ## Estructura de `index.html`
@@ -24,8 +23,9 @@ Orden: h1 + subtítulo → Objetivo → Impresiones del profesional → Menú se
 - Sin suplementación, sin recetas, sin batch cooking en este plan (los hooks existen en el JS pero no se usan).
 
 ## Estilo
-- Estructura, JS y reglas: `INSTRUCCIONES_PLANTILLA_NUTRILOGOS_v5.0.txt`. Aspecto: `INSTRUCCIONES_ESTILO_APP_NUTRILOGOS_v1.0.txt` (solo capa visual: CSS/colores; sustituye el CSS de la v5.0 y no cambia estructura ni JS).
-- La v1.0 omite del HTML la descripción del cliente, el perfil con métricas y la próxima revisión (la app ya los muestra). Es la variante de este plan.
+- Estructura, estilo app, JS y reglas: `INSTRUCCIONES_NUTRILOGOS_v6.0.txt` (sustituye a las antiguas v5.0 y v1.0, que ya no están en este repo; siguen en el historial de Git y en `archivo/` del repo maestro).
+- La guía omite del HTML la descripción del cliente, el perfil con métricas y la próxima revisión (la app ya los muestra). Es la variante de este plan.
+- Este `index.html` se creó con la v5.0 + v1.0; no hace falta rehacerlo con la plantilla nueva salvo que Guille lo pida.
 - Tras cualquier cambio: comprobar JS con `node --check` (extrayendo el `<script>`), revisar en móvil (~430 px) y escritorio, y que el `@media print` siga intacto.
 - Objetivo redactado como "base plant-based" (sin "100%").
 
@@ -66,7 +66,7 @@ Orden: h1 + subtítulo → Objetivo → Impresiones del profesional → Menú se
 
 ## Decisiones cerradas
 - Revisiones: se gestionan fuera de este repo; no tocar la sección ni preocuparse de fechas.
-- Estilo: prevalece la v1.0 (app) sobre la v5.0.
+- Estilo: el de la app (guía v6.0).
 - Repo y HTML se quedan **públicos y con los datos actuales** hasta la próxima revisión; entonces se actualizan.
 - Solo semana típica, sin versión alterna.
 - El lenguaje actual del plan (impresiones, subtítulo) se mantiene.
